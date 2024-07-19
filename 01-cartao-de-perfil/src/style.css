@@ -1,0 +1,61 @@
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-card {
+    width: 350px;
+    border-radius: 5px;
+    align-self: center;
+    background-color: #fff;
+
+}
+
+.container-img-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+
+hr {
+    color: var(--card-color);
+    opacity: 0.2;
+}
+.name, .location  {
+    margin: 10px;
+}
+.profile .img-profile {
+    border: 10px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+
+.followers ul {
+    display: flex;
+    justify-content: space-around;
+}
+.followers li {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-img-profile .name, 
+.followers .numbers{
+    font-weight: 700;
+}
+
+.container-img-profile .age, 
+.followers .sub-title{
+    color: var(--text-color);
+}

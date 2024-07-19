@@ -1,0 +1,43 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-images {
+    display: flex;
+    gap: 20px;
+}
+
+figure {
+    display: flex;
+    position: relative;
+}
+
+figure img {
+    width: 100%;
+}
+figure .painting {
+    align-self: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 43px 26px;
+}
+
+figure .painting .title {
+    font-weight: 600;
+    font-size: 30px;
+} 
+figure .painting .painter {
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 100;
+}
