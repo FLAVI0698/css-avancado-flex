@@ -1,6 +1,6 @@
 # Todas as resoluções de cada exercicio passado pelo curso Dev em Dobro:
 
-<nav style="display:flex; justify-content: space-between;">
+<nav style="display:flex justify-content: space-between">
     <a href="#primeiro">1º Cartão de perfil </a>
     <a href="#segundo">2º Gerador de conselhos </a>
     <a href="#terceiro">3º Menu Flexbox </a>
