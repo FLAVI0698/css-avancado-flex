@@ -1,9 +1,10 @@
 # Todas as resoluções de cada exercicio passado pelo curso Dev em Dobro:
-
-<a href="#primeiro">1º Cartão de perfil </a>
-<a href="#segundo">2º Gerador de conselhos </a>
-<a href="#terceiro">3º Menu Flexbox </a>
-<a href="#quarto">4º Lista de imagens </a>
+<nav style="display: block;">
+  <a href="#primeiro">1º Cartão de perfil </a>
+  <a href="#segundo">2º Gerador de conselhos </a>
+  <a href="#terceiro">3º Menu Flexbox </a>
+  <a href="#quarto">4º Lista de imagens </a>
+</nav>
 
 <h2 id="primeiro"> 1º Cartão de perfil:</h2>
 
